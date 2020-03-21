@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Blog Post Creator</title>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Blog Post Creator</h1>
+    <h2>Data Input</h2>
+    <div class="form-holder">
+        <input class="form" placeholder="id" type="text" name="id" id="id">
+        <input class="form" placeholder="title" type="text" name="title" id="title">
+        <input class="form" placeholder="date" type="date" name="date" id="date">
+        <input class="form" placeholder="description" type="text" name="description" id="description">
+        <input class="form" placeholder="text" type="text" name="text" id="text">
+        <button class="form" onclick="format()">Format</button>
+    </div>
+    <h2>Json Output</h2>
+    <code id="oneline"></code>
+    <p>&nbsp;</p>
+    <div class="form-holder">
+        <code id="line_col1"></code>
+        <code id="line_id"></code>
+        <code id="line_title"></code>
+        <code id="line_date"></code>
+        <code id="line_description"></code>
+        <code id="line_text"></code>
+        <code id="line_col2"></code>
+    </div>
+</body>
+
+</html>
